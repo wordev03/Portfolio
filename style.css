@@ -1,0 +1,90 @@
+.p {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spasi-luar {
+  margin: 18%;
+}
+
+.teks-atas {
+  position: relative;
+  top: -160px;
+  font-size: larger;
+}
+
+.spasi-kecil {
+  margin: 18%;
+}
+
+.teks-kecil {
+  position: relative;
+  top: -390px;
+}
+
+.spasi-biodata {
+  margin: 18%;
+}
+
+.teks-biodata {
+  position: relative;
+  top: -560px;
+}
+
+.teks-pen {
+  position: relative;
+  top: -790px;
+}
+
+.spasi-tr {
+  margin: 1%;
+}
+
+.bottom-text {
+  vertical-align: bottom;
+}
+
+.teks-pasf {
+  position: relative;
+  top: -1000px;
+}
+
+.amar {
+  width: 180%;
+  border: 1px;
+  text-align: left;
+  padding: 10px;
+  height: 200px;
+}
+
+.text-bawah {
+  display: block;
+}
+
+.teks-atasf {
+  position: relative;
+  top: -960px;
+}
+
+.spasi-biodataf {
+  margin: 16%;
+}
+
+.spasi-biodataf {
+  margin: 18%;
+}
+.teks-atash {
+  position: relative;
+  top: -999px;
+}
+
+.spasi-biodatah {
+  margin: 62%;
+}
+.teks-kananw {
+  text-align: right;
+}

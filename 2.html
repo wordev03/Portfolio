@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>formulir pendaftaran</title>
+  </head>
+  <body>
+        <table
+        border="1"
+        cellspacing="0"
+        cellpadding="10"
+      >
+        <tr>
+          <th rowspan="5">
+            <img
+              width="90"
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEiZA7YB0t5oNnmhFPdXhidTn3EyLx14qFIgw08vVYg_UOUMO4B1Zctml5thsrUycJwsQRkL_hYZ1L7xlcVwUAlYWy7MUYOFIEKUm-FwpQkVkn4l-3694Yf6qahT8qO01TvbytyyXiqlwYLxt6I_rxq_xdbgVEWwQ2pO3Z-gkwLnnOgSO25bJ4Vkr1nyayc"
+              alt=""
+            />
+          </th>
+          <th rowspan="5">UNIVERSITAS MUHAMMADIYAH PRINGSEWU LAMPUNG</th>
+        </tr>
+        <tr>
+          <td><b>No. Dokumen :FRM-BKM/00/15/018</b></td>
+        </tr>
+        <tr>
+          <td> <b>Revisi     : 00</b></td>
+        </tr>
+        <tr>
+          <td> <b>Berlaku    : 12 Oktober 2020</b> </td>
+        </tr>
+        <tr>
+          <td> <b>Halaman    : 2/3</b></td>
+        </tr>
+      </table>
+    
+      <!---->
+      <b class="p">
+    <p>FORMULIR PENDAFTARAN MAHASISWA BARU <br/>
+        UNIVERSITAS MUHAMMADIYAH PRINGSEWU <br/>
+        TAHUN AKADEMIK 2020/2021</p>
+    </b>
+    <!---->
+    <div class="spasi-luar">
+        <p class="teks-atas"> <strong>Petunjuk pengisian : </strong> <p>
+    </div>
+    <!---->
+
+    <div class="spasi-kecil">
+      <p class="teks-kecil">1. Formulir Wajib diisi dengan lengkap menggunakan huruf Kapital, beri tanda centang pada kotak pilihan</p>
+      <p  class="teks-kecil">2. Isi biodata dengan rapi dan teliti, jangan ada coretan, pastikan nama, tempat dan tanggal lahir sama dengan ijazah sebelumnya</p>
+      <p  class="teks-kecil">3. Perhatikan tanda baca (titik, koma, spasi, tanda petik), untuk spasi beri jarak satu kotak</p>
+      <p  class="teks-kecil">4. Lampirkan fotokopi Kartu Keluarga (KK), fotokopi Ijazah dan Transkrip / SKHUN Legalisir cap basah, 
+                             Surat Pernyataan Bermaterai dan Pas Foto Warna Terbaru ukuran 3 x 4 cm</p>
+
+    </div>
+    <!---->
+
+    <div class="spasi-biodata">
+      <p class="teks-biodata"><strong>I. BIODATA PRIBADI</strong> </p>
+    </div>
+    <!---->
+
+    <!---->
+<div class="spasi-biodata">
+  <form class="teks-pen" >
+    <table class="spasi-tr"  >
+        <tr  >
+            <td>Nomor Pendaftaran<span class="required"></span></td>
+            <td><input type="text" name="nomor_pendaftaran" required></td>
+        </tr>
+        <tr>
+            <td>Program Studi<span class="required"></span></td>
+            <td>
+                <select name="program_studi" required>
+    
+                    <option value="">STI</option>
+                    <option value="">MANAJEMEN</option>
+                    <option value="">KEPEREWATAN</option>
+                    <option value="">KESEHATAN</option>
+                  
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">Nama Lengkap<span class="required"></span></td>
+            <td><input type="text" name="nama_lengkap" required></td>
+        </tr>
+        <tr>
+            <td valign="top">Tempat Lahir<span class="required"></span></td>
+            <td><input type="text" name="tempat_lahir" required></td>
+        </tr>
+        <tr>
+            <td valign="top">Tanggal Lahir<span class="required"></span></td>
+            <td><input type="date" name="tanggal_lahir" required></td>
+        </tr>
+        <tr>
+            <td valign="top">Jenis Kelamin<span class="required"></span></td>
+            <td>
+                <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+                <label for="laki_laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                <label for="perempuan">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">Agama<span class="required"></span></td>
+            <td><input type="text" name="agama" required></td>
+        </tr>
+        <tr>
+            <td valign="top">NIK (Nomor KTP)<span class="required"></span></td>
+            <td><input type="text" name="nik" required></td>
+        </tr>
+        <tr>
+            <td valign="top">Alamat Lengkap (diisi lengkap)<span class="required"></span></td>
+            <td><textarea name="alamat_lengkap" required></textarea></td>
+        </tr>
+        <tr>
+        <td>Jenis Tinggal<span class="required"></span></td>
+                <td>
+                    <select name="jenis_tinggal" required>
+                        <option value="">-- Pilih Jenis Tinggal --</option>
+                        <option value="Bersama Orang Tua">Bersama Orang Tua</option>
+                        <option value="Kost Wali">Kost </option>
+                        <option value="Kost Wali">Wali</option>
+                        <option value="Asrama">Asrama</option>
+                        <option value="Panti Asuhan Lainnya">Panti Asuhan Lainnya</option>
+                        <option value="Panti Asuhan Lainnya"> Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td><input type="text" name="nomor_telepon"></td>
+            </tr>
+            <tr>
+                <td>Nomor Handphone (HP)<span class="required"></span></td>
+                <td><input type="text" name="nomor_hp" required></td>
+            </tr>
+            <tr>
+                <td>Email<span class="required"></span></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+          
+                  
+                  <tr>
+                    <td>Asal Pendidikan<span class="required"></span></td>
+                    <td><input type="text" name="Asal_Pendidikan" required></td>
+                </tr>
+            
+            
+            
+            <tr>
+                <td>Nomor Induk Siswa Nasional (NISN)<span class="required"></span></td>
+                <td><input type="text" name="nisn_nim" required></td>
+            </tr>
+            <tr>
+                <td>Nomor Induk Mahasiswa (NIM)<span class="required"></span></td>
+                <td><input type="text" name="nisn_nim" required></td>
+            </tr>
+            <tr>
+              <td valign="top">Tahun lulus <span class="required"></span></td>
+              <td>
+                  <input type="text" name="" >
+                  <td valign="top">No.Seri Ijazah<span class="required"></span></td>
+              </td>
+              <td>  <input type="text" name="" ></td>
+          </tr>
+       
+            <tr>
+                <td colspan="2"><h3>II. Data Orang Tua/Wali</h3></td>
+            </tr>
+            <tr>
+                <td valign="top">Nama Ayah<span class="required"></span></td>
+                <td><input type="text" name="nama_ayah" required></td>
+            </tr>
+            <tr>
+                <td valign="top">Tempat dan Tanggal Lahir Ayah<span class="required"></span></td>
+                <td>
+                    <input type="text" name="tempat_lahir_ayah" placeholder="Tempat Lahir" required>
+                    <input type="date" name="tanggal_lahir_ayah" placeholder="Tanggal Lahir" required>
+                </td>
+            </tr>
+            <tr>
+              <tr>
+                <td>Pendidikan Terakhir Ayah<span class="required"></span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td valign="top">Pekerjaan Ayah<span class="required"></span></td>
+              <td><input type="text"></td>
+          </tr>    
+            <tr>
+                <td valign="top">Penghasilan Ayah<span class="required"></span></td>
+                <td>
+                    <select name="penghasilan_ayah" required>
+                        <option value="">-- Pilih Penghasilan Ayah --</option>
+                        <option value="Kurang dari Rp.500.000">Kurang dari Rp.500.000</option>
+                        <option value="Rp. 500.000 Rp. 999.999">Rp. 500.000 - Rp. 999.999</option>
+                        <option value="Rp.1.000.000 Rp.1.999.999">Rp.1.000.000 - Rp.1.999.999</option>
+                        <option value="Rp.2.000.000 Rp.4.999.999">Rp.2.000.000 - Rp.4.999.999</option>
+                        <option value="Lebih dari Rp. 5.000.000">Lebih dari Rp. 5.000.000</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon Ayah</td>
+                <td><input type="text" name="nomor_telepon_ayah"></td>
+            </tr>
+            
+            
+            <p> 
+            <tr>
+                <td valign="top">Nama Ibu <span class="required"></span></td>
+                <td><input type="text" name="nama_ibu" required></td>
+            </tr>
+            <tr>
+                <td valign="top">Tempat dan Tanggal Lahir Ibu<span class="required"></span></td>
+                <td>
+                    <input type="text" name="tempat_lahir_ibu" placeholder="Tempat Lahir" required>
+                    <input type="date" name="tanggal_lahir_ibu" placeholder="Tanggal Lahir" required>
+                </td>
+            </tr>
+            <tr>
+              <tr>
+                <td>Pendidikan Terakhir Ibu<span class="required"></span></td>
+                <td><input type="text"></td>
+            </tr>
+            </tr>
+            
+              <tr>
+                <td valign="top">Pekerjaan Ibu<span class="required"></span></td>
+                <td><input type="text"></td>
+            </tr>  
+            
+
+                        <tr>
+                            <td valign="top">Penghasilan Ibu<span class="required"></span></td>
+                            <td>
+                                <select name="penghasilan_ayah" required>
+                                    <option value="">-- Pilih Penghasilan Ibu --</option>
+                                    <option value="Kurang dari Rp.500.000">Kurang dari Rp.500.000</option>
+                                    <option value="Rp. 500.000 Rp. 999.999">Rp. 500.000 - Rp. 999.999</option>
+                                    <option value="Rp.1.000.000 Rp.1.999.999">Rp.1.000.000 - Rp.1.999.999</option>
+                                    <option value="Rp.2.000.000 Rp.4.999.999">Rp.2.000.000 - Rp.4.999.999</option>
+                                    <option value="Lebih dari Rp. 5.000.000">Lebih dari Rp. 5.000.000</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nomor Telepon Ibu</td>
+                            <td><input type="text" name="nomor_telepon_ibu"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Nama Wali</td>
+                            <td><input type="text" name="Nama_Wali"></td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Tempat dan Tanggal Lahir Wali<span class="required"></span></td>
+                            <td>
+                                <input type="text" name="tempat_lahir_wali" placeholder="Tempat Lahir" required>
+                                <input type="date" name="tanggal_lahir_wali" placeholder="Tanggal Lahir" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pendidikan Terakhir Wali</td>
+                            <td><input type="text" name="Pendidikan_Terakhir_Wali"></td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan Wali</td>
+                            <td><input type="text" name="Pekerjaan_Wali"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td valign="top">Penghasilan Wali<span class="required"></span></td>
+                            <td>
+                                <select name="Penghasilan_Wali" required>
+                                    <option value="">-- Pilih Penghasilan Wali --</option>
+                                    <option value="Kurang dari Rp.500.000">Kurang dari Rp.500.000</option>
+                                    <option value="Rp. 500.000 Rp. 999.999">Rp. 500.000 - Rp. 999.999</option>
+                                    <option value="Rp.1.000.000 Rp.1.999.999">Rp.1.000.000 - Rp.1.999.999</option>
+                                    <option value="Rp.2.000.000 Rp.4.999.999">Rp.2.000.000 - Rp.4.999.999</option>
+                                    <option value="Lebih dari Rp. 5.000.000">Lebih dari Rp. 5.000.000</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nomor Telepon Wali</td>
+                            <td><input type="text" name="Nomor_Telepon_Wali"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2"><h3>III. Penanggung Jawab Biaya Pendidikan</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Penanggung Jawab</td>
+                            <td><input type="text" name=""></td>
+                        </tr>
+                        <tr>
+                            <td>No.Telp Penanggung Jawab</td>
+                            <td><input type="text" name=""></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h3>IV. Informasi Fisik Calon Mahasiswa</h3></td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Tinggi Badan <span class="required"></span></td>
+                            <td>
+                                <input type="text" name="" >
+                                <td >Berat Badan<span class="required"></span></td>
+                            </td>
+                            <td>  <input type="text" name="" ></td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Golongan Darah <span class="required"></span></td>
+                            <td>
+                                <input type="text" name="" >
+                                <td >Riwayat Penyakit <span class="required"></span></td>
+                            </td>
+                            <td>  <input type="text" name="" ></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2"><h3>V. Informasi Tambahan</h3></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Kemampuan Mengoperasikan Komputer :</td>
+                        </tr>
+
+  <tr>
+                <td valign="top">Ms. Office<span class="required"></span></td>
+                <td>
+                    <select name="" required>
+                        <option value="">Bisa</option>
+                        <option value="">Tidak Bisa</option>
+                    </select>
+                </td>
+            </tr>
+  <tr>
+                <td valign="top">Internet<span class="required"></span></td>
+                <td>
+                    <select name="" required>
+                        <option value="">Bisa</option>
+                        <option value="">Tidak Bisa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><h3>VI. Kelengkapan Berkas  Pendaftaran</h3></td>
+            </tr>    
+            <table border="1"
+            cellspacing="0"
+            cellpadding="10">
+                
+                <tr>
+                  <th>No</th>
+                  <th>nama beerkas</th>
+                  <th>keteraangan</th>
+                </tr>
+              
+                
+                <tr>
+                  <td>1</td>
+                  <td>Fotocopy Kartu Keluarga (KK) 1 lembar</td>
+                  <td></td>
+                </tr>
+              
+                
+                <tr>
+                  <td>2</td>
+                  <td>Fotocopy Ijazah Terakhir / SKL legalisir cap basah @ 1 rangkap</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Fotocopy Transkrip / SKHUN legalisir cap basah @ 1 rangkap</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Surat Pernyataan Bermaterai</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Pas Foto Warna terbaru</td>
+                  <td></td>
+                </tr>
+              </table>
+              <p>Apabila berkas diatas belum lengkap, calon mahasiswa bersedia melengkapi kekurangan berkas tersebut pada tgl ……………....…..2019 
+                Dengan ini saya menyatakan bahwa data yang tercantum diatas adalah benar. Apabila terjadi kesalahan karena data yang saya isi tidak benar, maka 
+                sepenuhnya menjadi tanggung jawab calon mahasiswa. Demikian penyataan ini saya buat dengan sebenarnya untuk dipergunakan sebagaimana 
+                mestinya.</p>
+                <tr>
+                    <td colspan="2"><h4>Mengetahui,<br>Petugas Pendaftaran</h4></td>
+                </tr> 
+                
+              
+                    </p>  
+                    <tr >
+                        <td rowspan="9"><h4 class="teks-kananw ">Pringsewu,………………………...……2023<br>Pendaftar</h4></td>
+                    </tr> 
+                    
+</div>   
+
+              <table border="2" class="teks-pasf">
+
+                <tr >
+                    <td class="amar">Pas Foto Warna <br>
+                        Terbaru 3x4 cm</td>
+                </tr>
+              </table>
+
+              <div class="teks-atasf ">
+                <tr >
+                    <span class="spasi-biodataf " >..........................................................................</span>
+                </tr> 
+              </div>
+              <div class="teks-atasf">
+                <tr>
+                    <span class="spasi-biodataf " >Nama dan Tanda Tangan Petugas Pendaftaran</span>
+                </tr>
+              </div>
+              
+              <div class="teks-atash " >
+                <tr >
+                    <span class="spasi-biodatah " >......................................................</span>
+                    <span class="spasi-biodatah " >Nama dan Tanda Tangan Pendaftar</span>
+                </tr> 
+              </div>
+            
+           
+            
+
+          
+             
+  </body>
+</html>
